@@ -2,7 +2,7 @@
   "name": "react-bootstrap-table",
   "version": "4.0.0-beta.8",
   "description": "It's a react table for bootstrap",
-  "main": "./lib/index.js",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/AllenFang/react-bootstrap-table.git"
