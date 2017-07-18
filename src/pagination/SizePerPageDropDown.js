@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 const sizePerPageDefaultClass = 'react-bs-table-sizePerPage-dropdown';
 
@@ -15,7 +16,7 @@ class SizePerPageDropDown extends Component {
       currSizePerPage
     } = this.props;
 
-    const openClass = open ? 'open' : '';
+    const openClass = open ? 'open show' : '';
     const dropDownStyle = { visibility: hidden ? 'hidden' : 'visible' };
 
     return (

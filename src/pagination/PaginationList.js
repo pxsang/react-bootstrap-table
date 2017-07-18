@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classSet from 'classnames';
 import PageButton from './PageButton.js';
 import SizePerPageDropDown from './SizePerPageDropDown';
@@ -64,6 +65,7 @@ class PaginationList extends Component {
         this.props.onSizePerPageList(selectSize);
       }
     }
+
     this.setState(() => { return { open: false }; });
   }
 
